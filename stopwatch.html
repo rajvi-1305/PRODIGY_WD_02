@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <script src="https://rajvi-1305.github.io/PRODIGY_WD_01/include.js" defer></script>
+</head>
+<body onload="includeHTML()">
+    <div include-html="https://rajvi-1305.github.io/PRODIGY_WD_01/header.html"></div>
+    <!-- <div include-html="header.html"></div> -->
+    <div class="bg">
+        <div class="stopwatch">
+            <h1>STOPWATCH</h1>
+            <div id="display">00:00:00:00</div>
+            <div class="buttons">
+                <button id="start">Start</button>
+                <button id="pause" style="display: none;">Pause</button>
+                <button id="reset">Reset</button>
+                <button id="lap">Lap</button>
+            </div>
+            <div class="laps">
+                <h2>Laps</h2>
+                <ul id="laps"></ul>
+            </div>
+        </div>
+    </div>
+    <!-- <div include-html="footer.html"></div> -->
+    <div include-html="https://rajvi-1305.github.io/PRODIGY_WD_01/footer.html"></div>
+
+    <script src="stopwatch.js"></script>
+</body>
+</html>
